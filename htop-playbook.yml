@@ -1,0 +1,11 @@
+---
+- hosts: localhost 
+  connection: local
+  become: true
+  gather_facts: no
+  tasks:    
+    - name: Install Htop
+      apt:
+        name: htop
+        # state: latest
+        state: absent

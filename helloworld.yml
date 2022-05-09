@@ -1,0 +1,19 @@
+---
+- hosts: localhost 
+  connection: local
+  gather_facts: no
+  tasks:
+    - name: Echo message
+      shell: echo 'Hello Ansible'
+      register: foo
+
+    - debug: 
+        msg: "{{foo.stdout}}"
+
+    - name: Ansible version
+      shell: ansible --version
+      register: ansver
+
+    - debug:
+        var: ansver
+        # msg: "{{ansver.stdout_lines[0]}}"
