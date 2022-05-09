@@ -9,7 +9,8 @@ Several hosts grouped together that share a common attribute.
 A collection of all the hosts and groups that Ansible manages. Could be a static file in the simple cases or we can pull the inventory from remote sources, such as cloud providers.
 
 ## Modules
-Units of code that Ansible sends to the remote nodes for execution.
+Units of code that Ansible sends to the remote nodes for execution.\
+[All modules](https://docs.ansible.com/ansible/2.4/list_of_all_modules.html)
 
 ## Tasks
 Units of action that combine a module and its arguments along with some other parameters.
