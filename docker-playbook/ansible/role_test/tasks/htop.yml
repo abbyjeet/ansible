@@ -1,0 +1,8 @@
+---
+# tasks file for role_test 
+  - name: Install Htop
+    apt:
+      name: htop
+      # state: latest
+      state: absent
+...

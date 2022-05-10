@@ -1,0 +1,7 @@
+---
+# defaults file for role_test
+  - name: "Example: Say Hello"      
+    include_role:
+      name: role_test
+      tasks_from: hello
+...

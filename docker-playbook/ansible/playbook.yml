@@ -1,0 +1,11 @@
+---
+  - hosts: local
+    become: true
+    gather_facts: false
+    roles:
+      - role_test
+    tasks:
+      - name: "Example: Install Htop"      
+        include_role:
+          name: role_test
+          tasks_from: htop
