@@ -19,8 +19,8 @@ Units of action that combine a module and its arguments along with some other pa
 An ordered list of tasks along with its necessary parameters that define a recipe to configure a system.
 
 ## Roles
-Redistributable units of organization that allow users to share automation code easier.
-https://galaxy.ansible.com/
+Redistributable units of organization that allow users to share automation code easier.\
+[All Roles/Collections](https://galaxy.ansible.com/)
 
 ## YAML
 A popular and simple data format that is very clean and understandable by humans.
